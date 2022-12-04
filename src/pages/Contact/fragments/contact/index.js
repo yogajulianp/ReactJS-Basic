@@ -1,11 +1,11 @@
 import './styles.css';
 
-function Contact (prop) {
-  
+function Contact () {
+  let data = "ini adalah isi kontak";
   return(
     <section>
       <h1 className='content-wrapper'>Kontak Kami</h1>
-      <p>{prop.data}</p>
+      <p>{data}</p>
     </section>
   );
 }

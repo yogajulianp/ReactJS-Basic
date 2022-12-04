@@ -1,8 +1,13 @@
 import './styles.css';
 
 function Sidebar() {
+  let data = "ini adalah isi berita terbaru";
   return(
-    <h1 className="sidebar-wrapper ">Ini Sidebar</h1>
+    <div>
+    <h1 className="sidebar-wrapper ">Daftar Berita Tarbaru</h1>
+    <p>{data}</p>
+    </div>
+
   );
 }
 

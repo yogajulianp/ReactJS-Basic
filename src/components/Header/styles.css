@@ -1,6 +1,6 @@
 .header-wrapper {
   background-color: #282c34;
-  display: flex;
+  justify-content: flex-end;
 }
 
 .header-wrapper > img {
@@ -15,6 +15,7 @@
 .navigation {
   display: flex;
   margin-left: auto;
+  
 }
 
 .navigation > button {
@@ -22,4 +23,8 @@
   font-size: 20px;
   height: 30px;
   width: 100px;
+  background-color:rgb(17, 163, 163);
+  color:azure;
+  border-radius: 9px;
+  
 }

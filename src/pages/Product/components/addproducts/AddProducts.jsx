@@ -80,15 +80,15 @@ const AddProducts = ({ items, click, removeItem, setAddedItem }) => {
         <div className="right-side-footer">
           <div className="bar"></div>
           <div className="footer-head">
-            <h4>Total :</h4>
+            <h4>Total Pembelian:</h4>
             <h1>${total}</h1>
           </div>
           <div className="check-out">
             <button
               className="check-out-btn"
               onClick={() => {
-                // eslint-disable-next-line no-restricted-globals
-                items.length >= 1 && print();
+                
+                items.length >= 1 && alert("Pembelian sudah diproses");
               }}
             >
               Check Out

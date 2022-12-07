@@ -1,5 +1,6 @@
 ol {
   padding: 0 1rem;
+  border: 1px solid green;
 }
 ol li {
   padding-left: 0;

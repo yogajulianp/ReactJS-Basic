@@ -1,6 +1,8 @@
 .header-wrapper {
   background-color: #282c34;
+  display: flex; 
   justify-content: flex-end;
+  /* border: 1px solid green; */
 }
 
 .header-wrapper > img {
@@ -13,18 +15,21 @@
 }
 
 .navigation {
+  gap: 0;
   display: flex;
   margin-left: auto;
-  
+  justify-content: flex-end;
+  /* border: 1px solid yellow; */
 }
 
 .navigation > button {
-  margin: 20px 100px 0 0;
   font-size: 20px;
   height: 30px;
   width: 100px;
   background-color:rgb(17, 163, 163);
   color:azure;
   border-radius: 9px;
+  /* border: 1px solid white; */
+  margin: 20px 10px 0 0;
   
 }

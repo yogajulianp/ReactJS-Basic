@@ -9,15 +9,20 @@ import Search from "./components/search/Search";
 import "./App.css";
 const Product = () => {
   const [items, setItem] = useState([]);
+  // const [categorydata, setCategorydata] = useState([]);
   const [searchValue, setSearchValue] = useState("");
   const [addedItems, setAddedItem] = useState([]);
   const [showAddProducts, setShowAddProducts] = useState(false);
+  // const [URL, setURL] = useState("https://fakestoreapi.com/products/")
 
   useEffect(() => {
-    fetch("https://fakestoreapi.com/products/")
+    fetch(`https://fakestoreapi.com/products/`)
       .then((res) => res.json())
       .then((data) => setItem(data));
   }, []);
+
+
+  // console.log("data :", items)
 
   function changingSearchData(e) {
     setSearchValue(e.target.value);

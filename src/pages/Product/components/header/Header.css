@@ -2,6 +2,7 @@ header {
   display: flex;
   gap: 1rem;
   align-items: center;
+  /* border: 1px solid green; */
 }
 header .header__logo {
   width: 4rem;
